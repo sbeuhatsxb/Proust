@@ -8,14 +8,14 @@ Cette semaine m’est venue l’idée de vous faire faire quelques menues révis
 
 Cette dernière phrase totalement inutile possède 241 mots. Vous l’aurez remarqué. Une phrase moyenne en français accessible à tout un chacun pour sa compréhension immédiate devrait contenir entre 14 et 16 mots. Ce qui est bien peu.
 
-Si vous avez de la suite dans les idées, vous aurez déjà deviné que dans le cadre de ce dojo, il vous sera demandé d’effectuer un certain nombre de calculs et de statistiques sur un texte bien épais contenu dans un seul fichier (vous avez de la chance) : l’intégralité de l’oeuvre A la recherche du temps perdu de Marcel Proust. Le fichier texte pèse 7 mégas. Sans déconner.
+Si vous avez de la suite dans les idées, vous aurez déjà deviné que dans le cadre de ce dojo, il vous sera demandé d’effectuer un certain nombre de calculs et de statistiques sur un texte bien épais contenu dans un seul fichier (vous avez de la chance) : l’intégralité de l’oeuvre « A la recherche du temps perdu » de Marcel Proust. Le fichier texte pèse 7 mégas. Sans déconner.
 
 * A l’aide de PHP, en POO aidé par PHPUnit, vous devrez afficher :
-  * Le nombre total de phrases du bouquin
-  * Trouver la phrase la plus longue du texte et l’afficher en entier d’une manière ou d’une autre.
-  * Calculer le nombre moyen de mots par phrase afin de savoir si la réputation de Proust est méritée.
-(bonus – calculer le nombre de mots par phrase en excluant les dialogues contenant seulement « Ah [?] » « Eh [?] » « Oh [?] » qui font diminuer drastiquement cette moyenne et qui ne peuvent être considérées comme des phrases.
-  * Les fichiers test1.txt et test2.txt pourront vous servir de support pendant vos tests. Le premier contient 8 mots et une phrase. Le deuxième contient 22 mots et 2 phrases. Si vos tests fonctionnent sur ces deux fichiers il n'y a pas de raison qu'ils ne marchent pas sur l'intégralité de l'oeuvre.
+  * **Le nombre total de phrases** du bouquin
+  * Trouver la phrase contenant le plus de **mots** et l’afficher en entier d’une manière ou d’une autre.
+  * Calculer le **nombre moyen de mots** par phrase afin de savoir si la réputation de Proust est méritée.
+(bonus – calculer le nombre de mots par phrase en excluant les dialogues contenant seulement *« Ah [?] » « Eh [?] » « Oh [?] »* qui font diminuer drastiquement cette moyenne et qui ne peuvent être considérées comme des phrases à part entière.
+  * Les fichiers test1.txt et test2.txt pourront vous servir de support pendant vos tests. Le premier contient 8 mots et une phrase. Le deuxième contient 30 mots (8 + 22 mots) et 2 phrases. Si vos tests fonctionnent sur ces deux fichiers il n'y a pas de raison qu'ils ne marchent pas sur l'intégralité de l'oeuvre.
 
 
 A l’antiquité, il pouvait être courant de voir des phrases « moyennes » de 40 mots... Pour l'anecdote, Proust a écrit l’incipit et le dernier paragraphe l’un juste après l’autre. Et de même en a-t-il fait pour chacun des chapitres du livre. Le premier chapitre correspond au dernier intitulé « Le temps retrouvé », le deuxième à l’avant dernier etc. Pour le support, il s’est servi de feuillets assez larges qu’il pouvait plier de manière à ce que le manuscrit forme déjà un livre. La Recherche du temps perdu est née de ce simple principe et évidemment du génie de Proust.
